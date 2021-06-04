@@ -97,6 +97,7 @@ class TicTacToe
       def play
         until over?
           turn
+        end
          if won?
            puts "Congratulations!"
 
@@ -105,5 +106,5 @@ class TicTacToe
          end
         end
       end
-    end
+
 end
